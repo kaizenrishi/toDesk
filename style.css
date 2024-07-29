@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::selection{
+    background-color: black;
+    color: white;
+}
+
+.bdy button :hover{
+    background-color: antiquewhite;
+    gap: 14px;
+    transition:all ease-out .4s ;
+}
+
+/* <button class="absolute flex end-[5rem] ml-14" >
+        <i onclick="handlMenu()" class="ri-menu-3-line relative text-2xl   text-gray-600 md:hidden "></i>
+       </button> */
+
+       
